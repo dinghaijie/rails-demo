@@ -1,0 +1,89 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at C:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Sun Aug 21 14:01:14 +0800 2011
+  Processing by Rails::InfoController#properties as 
+  [1m[36mSQL (16.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered inline template (0.0ms)
+Completed 200 OK in 199ms (Views: 3.9ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Sun Aug 21 14:01:31 +0800 2011
+  Processing by Rails::InfoController#properties as 
+Rendered inline template (0.0ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Sun Aug 21 14:01:31 +0800 2011
+  Processing by Rails::InfoController#properties as 
+Rendered inline template (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Sun Aug 21 14:01:31 +0800 2011
+  Processing by Rails::InfoController#properties as 
+Rendered inline template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/say/hello" for 127.0.0.1 at Sun Aug 21 14:10:54 +0800 2011
+  Processing by SayController#hello as HTML
+Rendered say/hello.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 131ms (Views: 129.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/say/hello" for 127.0.0.1 at Sun Aug 21 14:15:15 +0800 2011
+  Processing by SayController#hello as HTML
+Rendered say/hello.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 58ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/say/hello" for 127.0.0.1 at Sun Aug 21 14:16:05 +0800 2011
+  Processing by SayController#hello as HTML
+Rendered say/hello.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/say/hello" for 127.0.0.1 at Sun Aug 21 14:16:35 +0800 2011
+  Processing by SayController#hello as HTML
+Rendered say/hello.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 63ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/say/hello" for 127.0.0.1 at Sun Aug 21 14:17:55 +0800 2011
+  Processing by SayController#hello as HTML
+Rendered say/hello.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/say/goodbye" for 127.0.0.1 at Sun Aug 21 14:19:49 +0800 2011
+  Processing by SayController#goodbye as HTML
+Rendered say/goodbye.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/say/goodbye" for 127.0.0.1 at Sun Aug 21 14:20:21 +0800 2011
+  Processing by SayController#goodbye as HTML
+Rendered say/goodbye.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 52ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/say/goodbye" for 127.0.0.1 at Sun Aug 21 14:21:03 +0800 2011
+  Processing by SayController#goodbye as HTML
+Rendered say/goodbye.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Sun Aug 21 14:53:49 +0800 2011
+  Processing by Rails::InfoController#properties as 
+Rendered inline template (1.0ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Sun Aug 21 14:53:50 +0800 2011
+  Processing by Rails::InfoController#properties as 
+Rendered inline template (0.0ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
